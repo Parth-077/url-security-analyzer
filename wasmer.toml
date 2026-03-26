@@ -1,0 +1,18 @@
+[package]
+name = "url-security-analyzer"
+version = "0.1.0"
+description = "URL Security Analyzer: Advanced Threat Oracle & Cyber-Shield"
+license = "MIT"
+authors = ["Global Security Systems"]
+
+[[module]]
+name = "static-server"
+source = "wasmer/static-server"
+
+[[command]]
+name = "serve"
+module = "static-server"
+runner = "wasi"
+
+[fs]
+"/public" = "dist"
