@@ -1,4 +1,4 @@
-# 🛡️ URL Security Analyzer: Advanced Threat Oracle 🛡️
+# 🛡️ URL Security Analyzer: Advanced 
 
 fully working designed 
 **URL SECURITY ANALYZER** is a next-generation cyber-defense infrastructure designed for advanced threat detection. It employs heuristic analysis, shannon entropy calculations, and TLD reputation scoring to detect advanced phishing threats and URL-based obfuscation.
